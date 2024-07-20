@@ -60,19 +60,21 @@ position: fixed;
     padding: 10px 200px;
     }
     .head{
-        width: 300px;
-        height: 40px;
+        width: 150px;
+        height: 20px;
         border-radius: 5px;
         transition: 0.5s ease-in-out ;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: 0.5s ease-in-out ;
-        margin-left: 500px;
+        margin-left:600px;
         color: red;
-        font-size: 20px;
+    
         font-family: "IBM Plex Sans Arabic", sans-serif;
         font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
         }
         .mama{
             width: 400px;
@@ -682,10 +684,26 @@ transition: 0.5s ease-in-out ;
 position: relative;
 left: 600px;
 }
-/*
+
+@media only screen and (max-width: 767px){
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.5 ease-in-out;    
+    animation: bb;
+    animation-timing-function:ease-in-out;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    
+}
 .menu{
-    width: 200px;
-height: 1200px;
+    width: 100px;
+height: 300px;
 background-color: rgb(61, 0, 0);
 border-radius: 5px;
 margin-top: 600px;
@@ -706,34 +724,704 @@ animation-name: saa;
 }
 @keyframes saa{
     0%{
-translate: 500px 0px ;
+translate: 250px 0px ;
     }
     100%{
         translate: 0px 0px;
     }
 }
-.icon img{
-    width: 40px;
-    height: 40px;
-}
+
 .icon .post{
     position: relative;
 top: -300px;
 }
 .icon .post img{
     position: relative;
-    top: 600px;
+    top: 150px;
 }
 .icon a{
     text-decoration: none;
     color: black;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 7.5px;
     position: relative;
-    top: 600px;
+    top: 300px;
 }
 .post{
-padding: 5px 0px;
+padding: px 0px;
 display: flex;
 align-items: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+.logo{
+ width: 10px;
+ height: 10px;
+}
+.about{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 200;
+    font-size: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+  padding-left: 25px;
+}
+a:hover{
+filter: brightness(0.9);
+transition: 0.5s ease-in-out;
+}
+
+
+header{
+background-color: black;
+    width: 100%;
+z-index: 999;
+position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    }
+    .head{
+        width: 150px;
+        height: 20px;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s ease-in-out ;
+        margin-left: 300px;
+        color: red;
+        font-size: 10px;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        }
+        .mama{
+            width:200px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        margin-top: 200px;
+        transition: 0.5s ease-in-out ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        opacity: 0;
+        box-shadow: 0px 0px 20px red;
+    position: relative;
+    right: 100px;
+        }
+        div:hover .mama {
+        opacity: 1;
+           transition: 0.001s ease-in-out ;
+        animation-name: saa;
+           animation-timing-function:ease-in-out;
+           animation-duration: 0.5s;
+           animation-iteration-count:1;
+        }
+        @keyframes saa{
+            0%{
+        translate: 0px -100px;
+        
+            }
+            100%{
+        
+                translate: 0px 0px;
+            }
+        }
+        
+       header nav .head a{
+            text-decoration: none;
+            color: rgb(150, 0, 0);
+            font-family: sans-serif;
+            font-size: 15px;
+            margin-left: 5px;
+            font-weight: bold;
+            color: red;
+      
+            font-family: "IBM Plex Sans Arabic", sans-serif;
+            font-style: normal;
+
+        }
+        .post{
+        padding: 5px 0px;
+        display: flex;
+        align-items: center;
+        }
+        .sa{
+            position: relative;
+right: 150px;
+        }
+        .btn1{
+            background-color:rgb(56, 0, 0); 
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+
+
+    color: white;
+    font-size: 10px;
+    transition: 0.5s ease-in-out;
+    border: none;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-left:200px;
+    margin-top: 250px;
+    box-shadow: 0px 0px 100px rgb(255, 0, 72);
+        }
+ 
+    .sa1{
+
+        width: 100%;
+        min-height: 800px;
+    display: flex;
+    align-items: center;
+    background: url(photo.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: flex;
+    }
+    @keyframes bb{
+
+0%{
+    translate: 0px -100px  ;
+}
+        100%{
+            translate: 0px 0px;
+        }
+    }
+
+
+ 
+    .txt1{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+    .sa{
+        margin: 50px;
+    }
+    .two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+padding-left: 50px;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    animation: sa2;
+    animation-timing-function:ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    }
+
+
+    .post1{
+        width: 200px;
+    }
+    .post1 img{
+        margin-left: 20px;
+        width: 100px; 
+        height: auto;
+    }
+    .sa2{
+      margin-top: 100px;
+        width: 100%;
+        height: 100vh;
+        animation: sa2;
+        animation-timing-function:ease-in-out;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+     background-color: black;
+     text-align: right;
+    }
+    .sa2 h2{
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 30px;
+color: red;
+margin-bottom: 50px;
+margin-right: 20px;
+    }
+.txt{
+    width: 99%;
+    height: 150px;
+    text-align: right;
+}
+.txt p {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+  margin-right: 10px;
+    font-style: normal;
+}
+.txt h2{
+    color: red;
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.end{
+width: 100%;
+height: 500px;
+    background-color: black;
+    
+}
+.end a{
+    color: white;
+   margin-left: 200px;
+   margin-top: 50px;
+   position: relative;
+   top: 100px;
+   display: flex;
+}
+.sa3{
+    background-image: linear-gradient( rgb(0, 0, 0) , rgb(0, 12, 68) ) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px ;
+    margin-top: 25px;
+    animation: sa2;
+    animation-timing-function:ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    text-align: right;
+}
+.sa3 div h2{
+    color: rgb(238, 135, 0);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    text-align: right;
+
+}
+.sa3 video{
+    width: 300px; 
+ height: 350px;
+    border-radius: 5px;
+    border: solid 2px blue;
+    box-shadow: 0px 0px 50px blue;
+    position: relative;
+    left: 20px;
+}
+.sa4{
+margin-top: 300px;
+    background-color: black;
+    width: 85%;
+    height: 5500px ;
+    text-align: right;
+    margin-left: 15px;
+
+    
+}
+.sa4 h2{
+    color: rgb(4, 163, 17);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+position: relative;
+bottom: 25px;
+}
+.sa4 p{
+    color: rgb(86, 24, 145);
+    font-size: 40px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(86, 24, 145);
+margin-bottom: 50px;
+margin-right: 10px;
+}
+.sa4 .ch{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px  rgb(86, 24, 145);
+    box-shadow: 0px 0px 30px  rgb(86, 24, 145);
+    margin-top: 300px;
+}
+.sa4 .ch img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch h2{
+    color: rgb(86, 24, 145);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch p{
+    color: rgb(86, 24, 145);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(86, 24, 145);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+
+.sa4 .ch2{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px red;
+    box-shadow: 0px 0px 30px red;
+    margin-top: 300px;
+}
+.sa4 .ch2 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch2 h2{
+    color: red;
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch2 p{
+    color: red;
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px red;
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch3{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(212, 0, 255);
+    box-shadow: 0px 0px 30px rgb(212, 0, 255);
+    margin-top: 300px;
+}
+.sa4 .ch3 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch3 h2{
+    color: rgb(212, 0, 255);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch3 p{
+    color: rgb(212, 0, 255);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(212, 0, 255);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch4{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(184, 28, 1);
+    box-shadow: 0px 0px 30px rgb(184, 28, 1);
+    margin-top: 300px;
+}
+.sa4 .ch4 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch4 h2{
+    color: rgb(184, 28, 1);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch4 p{
+    color: rgb(184, 28, 1);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(184, 28, 1);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch5{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(223, 111, 91);
+    box-shadow: 0px 0px 30px rgb(223, 111, 91);
+    margin-top: 300px;
+}
+.sa4 .ch5 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch5 h2{
+    color: rgb(223, 111, 91);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch5 p{
+    color: rgb(223, 111, 91);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(223, 111, 91);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch6{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(53, 8, 54);
+    box-shadow: 0px 0px 30px rgb(53, 8, 54);
+    margin-top: 300px;
+}
+.sa4 .ch6 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch6 h2{
+    color: rgb(53, 8, 54);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch6 p{
+    color: rgb(53, 8, 54);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(53, 8, 54);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch7{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(238, 135, 0);
+    box-shadow: 0px 0px 30px rgb(238, 135, 0);
+    margin-top: 300px;
+}
+.sa4 .ch7 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch7 h2{
+    color: rgb(238, 135, 0);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch7 p{
+    color: rgb(238, 135, 0);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(238, 135, 0);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch8{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(143, 0, 238);
+    box-shadow: 0px 0px 30px rgb(143, 0, 238);
+    margin-top: 300px;
+}
+.sa4 .ch8 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch8 h2{
+    color:rgb(143, 0, 238);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch8 p{
+    color:rgb(143, 0, 238);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(143, 0, 238);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch9{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(243, 74, 74);
+    box-shadow: 0px 0px 30px rgb(243, 74, 74);
+    margin-top: 300px;
+}
+.sa4 .ch9 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch9 h2{
+    color: rgb(243, 74, 74);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch9 p{
+    color: rgb(243, 74, 74);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(243, 74, 74);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+.sa4 .ch10{
+    width: 100%;
+    height: 220px;
+    text-align: right;
+    border-radius: 10px;
+    border: solid 1px rgb(59, 85, 233);
+    box-shadow: 0px 0px 30px rgb(59, 85, 233);
+    margin-top: 300px;
+}
+.sa4 .ch10 img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: 290px;
+    bottom:70px;
+}
+
+.sa4 .ch10 h2{
+    color: rgb(59, 85, 233);
+    font-size: 10px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin-right: 5px;
+}
+.sa4 .ch10 p{
+    color: rgb(59, 85, 233);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 30px rgb(59, 85, 233);
+margin-bottom: 25px;
+margin-right: 5px;
+}
+
+nav{
+display: flex;
+justify-content: space-evenly;
+}
+.sa5{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-left:35px ;
+    height: 1200px ;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    animation: sa2;
+    animation-timing-function:ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  
+}
+.sa5 img{
+    width: 250px; 
+    height:250px;
+    box-shadow: 2px 2px 10px rgb(163, 0, 0);
+    border-radius: 10px;
+    margin: 10px -5px;
+}
+.sa55 h2{
+    color: rgb(4, 163, 17);
+    font-size: 20px;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+font-weight: bold;
+position: relative;
+bottom: 25px;
+text-align: right ;
+margin-right: 15px;
+text-shadow: 0px 0px 20px rgb(4, 163, 17) ;
+}
+
+
+.icon{
+width: 300px;
+height: 50px;
+border-radius: 5px;
+transition: 0.5s ease-in-out ;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
 }
