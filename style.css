@@ -761,8 +761,8 @@ body{
     background-color: black;
 }
 header nav img{
-    width: 10px;
-    height: 10px;
+    width: 90px;
+    height: auto;
 }
 .logo{
  width: 10px;
@@ -802,7 +802,7 @@ position: fixed;
         align-items: center;
         justify-content: center;
         transition: 0.5s ease-in-out ;
-        margin-left: 300px;
+        margin-left: 190px;
         color: red;
         font-size: 10px;
         font-family: "IBM Plex Sans Arabic", sans-serif;
@@ -1064,11 +1064,11 @@ margin-right: 10px;
     margin-top: 300px;
 }
 .sa4 .ch img{
-    width: 50px;
+    width: 45px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch h2{
@@ -1100,8 +1100,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:60px;
 }
 
 .sa4 .ch2 h2{
@@ -1132,8 +1132,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:60px;
 }
 
 .sa4 .ch3 h2{
@@ -1164,8 +1164,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch4 h2{
@@ -1196,8 +1196,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch5 h2{
@@ -1228,8 +1228,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch6 h2{
@@ -1260,8 +1260,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch7 h2{
@@ -1292,8 +1292,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch8 h2{
@@ -1323,9 +1323,8 @@ margin-right: 5px;
 .sa4 .ch9 img{
     width: 50px;
     height: auto;
-    position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch9 h2{
@@ -1356,8 +1355,8 @@ margin-right: 5px;
     width: 50px;
     height: auto;
     position: relative;
-    right: 290px;
-    bottom:70px;
+    right: 220px;
+    bottom:50px;
 }
 
 .sa4 .ch10 h2{
